@@ -1,7 +1,7 @@
-WAF.define('KendoNumericTextBox', ['waf-core/widget', 'kendoCore'], function(widget, $) {
+WAF.define('WakendoNumericTextBox', ['waf-core/widget', 'wakendoCore'], function(widget, $) {
 	'use strict';
 		
-    var KendoNumericTextBox = widget.create('KendoNumericTextBox', {
+    var KendoNumericTextBox = widget.create('WakendoNumericTextBox', {
 
     	value: widget.property({
     		type: 'number'
